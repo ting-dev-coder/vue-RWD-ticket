@@ -1,0 +1,150 @@
+$container-max-widths: (
+  sm: 641px,
+  md: 720px,
+  lg: 960px,
+  xl: 1140px,
+)!default;
+$white: #fff !default;
+$gray-100: #f8f9fa !default;
+$gray-200: #e9ecef !default;
+$gray-300: #dee2e6 !default;
+$gray-400: #ced4da !default;
+$gray-500: #adb5bd !default;
+$gray-600: #8d98a1 !default;
+$gray-700: #495057 !default;
+$gray-800: #4f565e !default;
+$gray-900: #212529 !default;
+$black: #000 !default;
+
+$blue-300: #dee2e65c!default;
+$blue-500: #177ce2 !default;
+$blue-600: shade-color($blue-500, 20%) !default;
+$blue-700: shade-color($blue-500, 40%) !default;
+
+$blues: (
+  '500': $blue-500,
+  '600': $blue-600,
+  '700': $blue-700,
+) !default;
+
+// scss-docs-start color-variables
+$blue: #4680eb !default;
+$indigo: #6610f2 !default;
+$purple: #8583ec !default;
+$pink: #f7a5a6 !default;
+$red: #d63333 !default; 
+$orange: #eb5335 !default;
+$yellow: #f0c466 !default; //主色調
+$green: rgb(14, 235, 180);
+$light-yellow: #f3e2cc5c;
+
+// scss-docs-end color-variables
+
+// scss-docs-start colors-$100
+$colors: (
+  'blue': $blue,
+  'indigo': $indigo,
+  'purple': $purple,
+  'pink': $pink,
+  'red': $red,
+  'orange': $orange,
+  'yellow': $yellow
+) !default;
+// scss-docs-end colors-map
+
+// scss-docs-start theme-color-variables
+$primary: $yellow;
+$secondary: $blue;
+$success: $green !default;
+$warning: $orange !default;
+$danger: $red !default;
+$light: $gray-100 !default;
+$dark: $gray-900 !default;
+$dark-400: #2B2B2B;
+$dark-yellow: #3a311d;
+// scss-docs-end theme-color-variables
+
+// scss-docs-start theme-colors-map
+$theme-colors: (
+  'primary': $primary,
+  'secondary': $secondary,
+  'success': $success,
+  'warning': $warning,
+  'danger': $danger,
+  'gray': $light,
+  'dark': $dark,
+  'gray-800': $gray-800,
+  'gray-300': $gray-300,
+  'dark-400': $dark-400,
+  'blue-300': $blue-300,
+  'blue-500': $blue-500,
+  'blue-600': $blue-600,
+  'blue-700': $blue-700,
+  'dark-yellow': $dark-yellow,
+  'light-yellow': $light-yellow
+) !default;
+// scss-docs-end theme-colors-map
+
+$spacer: 1rem;
+$gutters: (
+  0: 0,
+  1: $spacer * .25,
+  2: $spacer * .5,
+  3: $spacer,
+  4: $spacer * 1.5,
+  5: $spacer * 2,
+  6: $spacer * 2.5,
+  7: $spacer * 3
+);
+
+$link-color:                              $gray-800 !default;
+$link-decoration:                         none !default;
+
+$font-size-base:              1rem !default;
+
+$h1-font-size:                $font-size-base * 2.5 !default;
+$h2-font-size:                $font-size-base * 2 !default;
+$h3-font-size:                $font-size-base * 1.75 !default;
+$h4-font-size:                $font-size-base * 1.5 !default;
+$h5-font-size:                $font-size-base * 1.25 !default;
+$h6-font-size:                $font-size-base !default;
+$h7-font-size:                $font-size-base* 0.75 !default;
+
+$font-sizes: (
+  1: $h1-font-size,
+  2: $h2-font-size,
+  3: $h3-font-size,
+  4: $h4-font-size,
+  5: $h5-font-size,
+  6: $h6-font-size,
+  7: $font-size-base * 0.75,
+  8: $font-size-base * 0.50
+);
+
+$spacer: 1rem !default;
+$spacers: (
+  0: 0,
+  1: $spacer / 4,
+  2: $spacer / 2,
+  3: $spacer,
+  4: $spacer * 1.5,
+  5: $spacer * 3,
+  6: $spacer * 3.5,
+  7: $spacer * 4,
+  8: $spacer * 4.5,
+) !default;
+
+$position-values: (
+  0: 0,
+  10: 10%,
+  50: 50%,
+  100: 100%
+) !default; 
+
+$border-radius:               .25rem;
+$border-radius-sm:            .2rem;
+$border-radius-lg:            .3rem;
+$border-radius-pill:          50rem;
+
+$box-shadow: 0 .25rem 0.5rem rgba($black, .10)
+

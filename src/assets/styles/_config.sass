@@ -1,0 +1,50 @@
+.border-transparent
+  border: transparent
+.border-5
+  border-radius: 5px
+.flex-none
+  flex: none
+.img-fill
+  object-fit: fill
+.img-cover
+  object-fit: cover
+.pointer
+  cursor: pointer
+.box-sizing
+  box-sizing: border-box
+.text-title
+  color:  $gray-800
+  font-size: $h3-font-size
+  font-weight: $font-weight-bold
+
+.shadow
+  box-shadow: 0 6px 6px 0 #00000017!important
+.spin-wrap
+  text-align: center
+  border-radius: 4px
+  margin-bottom: 20px
+  padding: 30px 50px
+  margin: 20px 0
+  font-size: 32px
+  & :deep(.ant-spin-dot)
+    font-size: 24px
+  
+.divider
+  display: flex
+  margin: 16px 0
+  color: rgba(0,0,0,.85)
+  font-weight: 500
+  white-space: nowrap
+  text-align: center
+  border-top: 0
+  border-top-color: rgba(0,0,0,.06)
+  h3, span
+    padding: 0 10px
+.divider::before, .divider::after
+  content: ''
+  position: relative
+  top: 0%
+  display: table-cell
+  width: 50%
+  border-top: 1.5px solid $gray-800
+  transform: translateY(50%)
