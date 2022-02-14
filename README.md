@@ -106,7 +106,7 @@
 
 ![image](https://github.com/tp27933/ticket---typescript/blob/master/src/assets/snapshot/backend-productList.jpg)
 
-![image](https://github.com/tp27933/ticket---typescript/blob/master/src/assets/snapshot/backend-coupon-home.jpg)
+![image](https://github.com/tp27933/ticket---typescript/blob/master/src/assets/snapshot/backend-coupon.jpg)
 
 ------
 
