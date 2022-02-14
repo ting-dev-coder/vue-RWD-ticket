@@ -15,8 +15,7 @@
 ## 使用技術:
 
 - Vue3
-- Typescript
-- Vite
+- Webpack
 - Vue Cli
 - Vue Component
 - Vue Router
