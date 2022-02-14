@@ -25,7 +25,8 @@
 - V-Calendar
 - Ant Design of Vue
 - SCSS
-- mitt
+- Mitt
+- Gsap
 - Bootstrap 5
 - Font Awesome
 
